@@ -1,0 +1,25 @@
+{
+  "name": "pact-contract-tests-consumer",
+  "version": "1.0.0",
+  "description": "Consumer contract tests - PoC",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest --testPathPattern=consumer"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@pact-foundation/pact": "^16.3.0",
+    "@types/jest": "^30.0.0",
+    "jest": "^29.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.13.6"
+  },
+  "jest": {
+    "testTimeout": 30000,
+    "testEnvironment": "node"
+  }
+}
